@@ -1,0 +1,47 @@
+{
+    "name": "@lesnoypudge/eslint-react-config",
+    "version": "1.0.0",
+    "description": "lesnoypudge's eslint-react-config",
+    "main": "eslint.config.js",
+    "type": "module",
+    "scripts": {
+        "codeStyle:check": "npx eslint .",
+        "codeStyle:fix": "npx eslint . --fix",
+        "formatter:config": "npx formatter-config",
+        "ts:init": "tsc --init",
+        "deploy": "git add . && git commit -m 'update' && git push && git status",
+        "publish": "npm publish --access public"
+    },
+    "keywords": [
+        "lesnoypudge",
+        "eslint",
+        "config",
+        "base"
+    ],
+    "author": "LesnoyPudge",
+    "license": "ISC",
+    "dependencies": {
+        "@eslint/compat": "^1.0.1",
+        "@typescript-eslint/parser": "^7.10.0",
+        "eslint": "^9.3.0",
+        "eslint-plugin-jsx-a11y": "^6.8.0",
+        "eslint-plugin-jsx-control-statements": "^3.0.0",
+        "eslint-plugin-only-warn": "^1.1.0",
+        "eslint-plugin-react": "^7.34.1",
+        "eslint-plugin-react-compiler": "^0.0.0-experimental-c8b3f72-20240517",
+        "eslint-plugin-react-hooks": "^4.6.2",
+        "eslint-plugin-react-refresh": "^0.4.7",
+        "eslint-plugin-tsdoc": "^0.2.17",
+        "typescript-eslint": "^7.10.0"
+    },
+    "devDependencies": {
+        "@lesnoypudge/formatter-config": "^1.0.4",
+        "@lesnoypudge/types-global-react": "^1.0.1",
+        "prettier": "3.2.5",
+        "typescript": "^5.4.5"
+    },
+    "overrides": {
+        "eslint": "^9.3.0",
+        "typescript": "^5.4.5"
+    }
+}
