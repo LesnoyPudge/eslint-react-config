@@ -6,7 +6,8 @@
         "build",
         "eslint.*",
         "tseslint.*",
-        "recommended.js"
+        "recommended.js",
+        "config.js"
     ],
     "compilerOptions": {
         "types": ["@lesnoypudge/types-global-react"],

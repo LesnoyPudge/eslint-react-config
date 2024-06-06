@@ -7,5 +7,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "eslint.experimental.useFlatConfig": true,
     "eslint.format.enable": true,
-    "typescript.tsdk": "node_modules\\typescript\\lib"
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "editor.rulers": [80],
+    "[javascriptreact][typescriptreact]": {
+        "editor.rulers": [80, 100]
+    }
 }
